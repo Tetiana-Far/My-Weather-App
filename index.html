@@ -4,23 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <header>
-        <form>
-          <input type="text" placeholder="Enter a city" required />
-          <input type="button" value="Search" />
+        <form class="search-form">
+          <input
+            type="text"
+            placeholder="Enter a city"
+            required
+            class="search-input"
+          />
+          <input type="button" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <h1>Paris</h1>
-        <p>
-          Thursday 21:53, clear sky
-          <br />
-          Humidity: 71%, Wind: 5.66km/h
-        </p>
-        <div>🌤️ 0 °C</div>
+        <div class="weather-data">
+          <div>
+            <h1 class="city">Paris</h1>
+            <div class="weather-details">
+              <p>
+                Thursday 21:53, clear sky
+                <br />
+                Humidity: <strong>71%</strong>, Wind: <strong>5.66km/h</strong>
+              </p>
+            </div>
+          </div>
+          <div class="temperature-and-sky">
+            <div class="weather-icon">🌤️</div>
+            <div class="temperature-value">0</div>
+            <div class="degree-symbol">°C</div>
+          </div>
+        </div>
       </main>
       <footer>
         This project was coded by
