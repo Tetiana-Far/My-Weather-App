@@ -51,11 +51,12 @@ body {
     display: flex;
 }
 .weather-icon {
-    font-size: 48px;
-    margin-top: 22px;
+    height: 88px;
+    width: 88px;
 }
 .temperature-value {
     font-size: 88px;
+    line-height: 88px;
     font-weight: bold;
 }
 .degree-symbol {
