@@ -62,7 +62,24 @@ body {
 .degree-symbol {
     margin-top: 6px;
     font-size: 28px;
-}      
+} 
+.weather-forecast {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.weather-forecast img {
+    height: 88px;
+    width: 88px;
+}
+.weather-forecast-day {
+    color: rgba(39, 33, 66, 0.5);
+}
+.weather-forecast-temperature {
+    color: #0a84e7
+}
+.weather-forecast-temperature-max {
+    font-weight: bold;
+}
 footer {
     color: rgba(0, 0, 0, 0.6);
 }
