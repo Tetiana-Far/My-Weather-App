@@ -64,8 +64,10 @@ body {
     font-size: 28px;
 } 
 .weather-forecast {
+    display: flex;
+    justify-content: space-between;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .weather-forecast img {
     height: 88px;
@@ -73,12 +75,12 @@ body {
 }
 .weather-forecast-day {
     color: rgba(39, 33, 66, 0.5);
+    text-align: center;
 }
 .weather-forecast-temperature {
+    display: flex;
+    justify-content: space-around;
     color: #0a84e7
-}
-.weather-forecast-temperature-max {
-    font-weight: bold;
 }
 footer {
     color: rgba(0, 0, 0, 0.6);
